@@ -3,8 +3,8 @@
         <div class="row no-gutter">
             {% for post in include.posts limit:include.limit %}
             <div class="col-lg-4 col-sm-6">
-                <a href="{{ post.url }}" class="portfolio-box">
-                    <img src="/img/{{ post.image }}" class="img-responsive" alt="">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="portfolio-box">
+                    <img src="{{ site.baseurl}}/img/{{ post.image }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                         <div class="project-name">
