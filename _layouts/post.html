@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  {% include amazon.html %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 middle">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  {% include scripts.html %}
+</body>
+
+</html>

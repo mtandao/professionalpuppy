@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 middle">
+        {{ page.header }}
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="col-md-8 col-md-offset-2">
+  {% assign products = "B00LHY0S9G, B01N468CXJ" | split: ", " %}
+  {% include amazon.html asins=products %}
+
+  {{ content }}
+
+  {% include portfolio.html posts=site.posts limit=12 %}
+
+  {% include scripts.html %}
+  </div>
+  </div>
+</body>
+
+</html>

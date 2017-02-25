@@ -1,0 +1,13 @@
+# Site settings
+title: Professional Puppy
+email: topdog@professionalpuppy.com
+# description: > # this means to ignore newlines until "baseurl:"
+description: Make walks fun again with a dog harness. Find the perfect fit for your pup with our size guide. Get educated on harness and leash safety. Walk in comfort and style.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+include: ["_pages"]

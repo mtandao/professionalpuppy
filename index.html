@@ -1,0 +1,66 @@
+---
+brandlink: "#page-top"
+keywords: dog, puppy, harness, leash, walk, walking, kennel, crate, treats
+description: The best resource for puppy and adult dog harnesses, crates, and tasty treats!
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+
+  <header>
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1>Being a puppy is hard work!</h1>
+        <hr>
+        <p>{{ site.description }}</p>
+        <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">This is What's Up Dog</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-tags bounceIn text-primary"></i>
+            <h3>Review and Compare</h3>
+            <p class="text-muted">We breakdown the basics in our dog harness and kennel reviews.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-list-alt bounceIn text-primary"></i>
+            <h3>Puppy Planning</h3>
+            <p class="text-muted">Everything you need to raise your puppy right from the first night!</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-university bounceIn text-primary"></i>
+            <h3>Training Tips</h3>
+            <p class="text-muted">How to teach your dog to walk on a leash.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include portfolio.html posts=site.posts limit=6 %}
+  {% include aside.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
