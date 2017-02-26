@@ -3,8 +3,6 @@ image: posts/big-dog-soft-reflective-no-pull-harness_dog.jpg
 ---
 Practical and budget friendly. This harness puts function before form.
 
-img
-
 ### Pros
 
 * reflective
