@@ -5,17 +5,17 @@
 
 <body id="page-top">
   {% include nav.html %}
-  {% include amazon.html %}
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        {{ content }}
-      </div>
-    </div>
+  <div class="col-md-10 col-md-offset-1">
+    <h2>{{ page.title }}</h2>
+    {% include amazon.html product=page.product %}
+    <br />
+    {{ content }}
   </div>
-
-  {% include scripts.html %}
+  </div>
 </body>
+
+{% include scripts.html %}
 
 </html>

@@ -1,6 +1,10 @@
 ---
 layout: post
 image: posts/ruffwear-front-range-all-day-adventure-harness_dog.jpg
+product:
+ name: "Ruffwear - Front Range All-Day Adventure Harness for Dogs"
+ asin: "B00LHY0S9G"
+ img: "https://images-na.ssl-images-amazon.com/images/I/51lOTeLx1ZL._SL250_.jpg"
 ---
 Best option for dogs with active and outdoor lifestyles!
 

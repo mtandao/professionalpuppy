@@ -1,5 +1,10 @@
 ---
+layout: post
 image: posts/kurgo-true-fit-smart-dog-harness_dog1.jpg
+product:
+ name: "Kurgo Tru-Fit Smart Dog Walking Harness with Plastic Quick Release Buckles"
+ asin: "B00164ZWBG"
+ img: "https://images-na.ssl-images-amazon.com/images/I/51u%2BlD6oRoL._SL250_.jpg"
 ---
 Simple and durable harness. Easy to put on and feels sturdy.
 

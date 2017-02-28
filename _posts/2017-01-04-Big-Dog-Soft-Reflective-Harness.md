@@ -1,5 +1,10 @@
 ---
+layout: post
 image: posts/big-dog-soft-reflective-no-pull-harness_dog.jpg
+product:
+ name: "Big Dog Soft Reflective No Pull Harness"
+ asin: "B00ZBW1Z4M"
+ img: "https://images-na.ssl-images-amazon.com/images/I/41KNefbgnXL._SL250_.jpg"
 ---
 Practical and budget friendly. This harness puts function before form.
 
